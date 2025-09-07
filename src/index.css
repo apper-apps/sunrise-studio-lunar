@@ -1,0 +1,102 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'react-toastify/dist/ReactToastify.css';
+
+:root {
+  --peach-50: #FFF7F3;
+  --peach-200: #FFE3D6;
+  --apricot-300: #FFC7A8;
+  --coral-400: #F9A89E;
+  --sage-100: #EAF6EE;
+  --sage-400: #8FC8A7;
+  --ink-700: #2E2A27;
+  --slate-500: #6C6A68;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--ink-700);
+  background-color: var(--white);
+}
+
+/* Toast Styling */
+.Toastify__toast-container {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(143, 200, 167, 0.15);
+  font-size: 14px;
+  min-height: 48px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, var(--sage-400), #7BC499);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, var(--coral-400), #F28B85);
+  color: white;
+}
+
+.Toastify__progress-bar--success {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.Toastify__progress-bar--error {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Smooth reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--peach-50);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sage-400);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7BC499;
+}
+
+/* Focus styles */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--sage-400);
+  outline-offset: 2px;
+}

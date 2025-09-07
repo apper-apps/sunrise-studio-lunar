@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "title": "[Class] Morning Flow",
+    "date": "2024-12-15",
+    "time": "7:00 AM",
+    "location": "Studio A",
+    "description": "Start your day with energizing vinyasa flow"
+  },
+  {
+    "Id": 2,
+    "title": "[Class] Gentle Hatha",
+    "date": "2024-12-15",
+    "time": "9:30 AM",
+    "location": "Studio B",
+    "description": "Slow-paced yoga focusing on basic postures"
+  },
+  {
+    "Id": 3,
+    "title": "[Community] Saturday Gathering",
+    "date": "2024-12-16",
+    "time": "10:00 AM",
+    "location": "Main Studio",
+    "description": "Weekly community practice and connection time"
+  },
+  {
+    "Id": 4,
+    "title": "[Class] Power Yoga",
+    "date": "2024-12-16",
+    "time": "6:00 PM",
+    "location": "Studio A",
+    "description": "Vigorous flow building strength and flexibility"
+  },
+  {
+    "Id": 5,
+    "title": "[Event] New Moon Ceremony",
+    "date": "2024-12-17",
+    "time": "7:30 PM",
+    "location": "Main Studio",
+    "description": "Monthly intention-setting ceremony with meditation"
+  },
+  {
+    "Id": 6,
+    "title": "[Class] Restorative Yoga",
+    "date": "2024-12-18",
+    "time": "7:00 PM",
+    "location": "Studio B",
+    "description": "Deeply relaxing poses with props for stress relief"
+  },
+  {
+    "Id": 7,
+    "title": "[Class] Sunrise Flow",
+    "date": "2024-12-19",
+    "time": "6:30 AM",
+    "location": "Studio A",
+    "description": "Early morning practice to greet the day"
+  },
+  {
+    "Id": 8,
+    "title": "[Course] Meditation Workshop",
+    "date": "2024-12-20",
+    "time": "2:00 PM",
+    "location": "Main Studio",
+    "description": "Introduction to mindfulness meditation techniques"
+  },
+  {
+    "Id": 9,
+    "title": "[Class] Yin Yoga",
+    "date": "2024-12-21",
+    "time": "6:30 PM",
+    "location": "Studio B",
+    "description": "Deep, passive stretches held for 3-5 minutes"
+  },
+  {
+    "Id": 10,
+    "title": "[Event] Winter Solstice Celebration",
+    "date": "2024-12-21",
+    "time": "8:00 PM",
+    "location": "Main Studio",
+    "description": "Special celebration of the longest night"
+  },
+  {
+    "Id": 11,
+    "title": "[Class] Prenatal Yoga",
+    "date": "2024-12-22",
+    "time": "10:00 AM",
+    "location": "Studio B",
+    "description": "Gentle practice designed for expecting mothers"
+  },
+  {
+    "Id": 12,
+    "title": "[Community] Holiday Potluck",
+    "date": "2024-12-23",
+    "time": "6:00 PM",
+    "location": "Main Studio",
+    "description": "Community celebration with food and fellowship"
+  }
+]

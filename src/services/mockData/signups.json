@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "firstName": "Emma",
+    "lastName": "Wilson",
+    "telephone": "(555) 123-4567",
+    "email": "emma@example.com",
+    "type": "free-trial",
+    "createdAt": "2024-12-01T10:30:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "firstName": "Michael",
+    "lastName": "Chen",
+    "telephone": "(555) 234-5678",
+    "email": "michael@example.com",
+    "type": "membership",
+    "createdAt": "2024-12-02T14:15:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 3,
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "telephone": "(555) 345-6789",
+    "email": "sarah@example.com",
+    "type": "free-trial",
+    "createdAt": "2024-12-03T09:45:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 4,
+    "firstName": "David",
+    "lastName": "Rodriguez",
+    "telephone": "(555) 456-7890",
+    "email": "david@example.com",
+    "type": "membership",
+    "createdAt": "2024-12-04T16:20:00Z",
+    "status": "active"
+  }
+]

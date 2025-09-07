@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "name": "Jennifer Martinez",
+    "email": "jennifer@example.com",
+    "message": "I'm interested in learning more about your teacher training program. Could you provide more details about the curriculum and schedule?",
+    "createdAt": "2024-12-01T15:30:00Z",
+    "status": "read"
+  },
+  {
+    "Id": 2,
+    "name": "Robert Kim",
+    "email": "robert@example.com",
+    "message": "Do you offer private sessions? I'm recovering from a back injury and would like personalized instruction.",
+    "createdAt": "2024-12-02T11:15:00Z",
+    "status": "read"
+  },
+  {
+    "Id": 3,
+    "name": "Lisa Thompson",
+    "email": "lisa@example.com",
+    "message": "I'd love to host a corporate wellness workshop at my company. Can we discuss options and pricing?",
+    "createdAt": "2024-12-03T13:45:00Z",
+    "status": "unread"
+  },
+  {
+    "Id": 4,
+    "name": "Carlos Ruiz",
+    "email": "carlos@example.com",
+    "message": "What are your COVID safety protocols? I want to make sure I feel comfortable returning to in-person classes.",
+    "createdAt": "2024-12-04T08:20:00Z",
+    "status": "unread"
+  }
+]
