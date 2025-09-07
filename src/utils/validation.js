@@ -4,9 +4,9 @@ export const validateEmail = (email) => {
 }
 
 export const validatePhone = (phone) => {
-const phoneRegex = /^[+]?[1-9][\d]{0,15}$/
-const cleanPhone = phone.replace(/[\s\-()]/g, "")
-  return phoneRegex.test(cleanPhone)
+  const phoneRegex = /^[+]?[1-9][\d]{0,15}$/;
+  const cleanPhone = phone.replace(/[\s\-()]/g, "");
+  return phoneRegex.test(cleanPhone);
 }
 
 export const validateRequired = (value) => {
